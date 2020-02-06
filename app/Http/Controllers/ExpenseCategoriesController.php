@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\ExpenseCategories;
-use App\Http\Requests\CategoryRequest;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
-use Illuminate\Support\Str;
+use App\Http\Requests\CategoryRequest;
 
 class ExpenseCategoriesController extends Controller
 {
