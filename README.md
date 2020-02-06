@@ -1,2 +1,2 @@
 # expense-manager
-Run artisan command "migrate:refresh -seed"
+Run artisan command "migrate:refresh --seed"
