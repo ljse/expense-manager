@@ -23,7 +23,7 @@
                                 $datalabel[] = $cat->name;
                             @endphp
                             <tr>
-                                <td>{{ $cat->name }}</td>
+                                <td>{{ ucwords($cat->name) }}</td>
                                 <td>$ {{ $cat->totalAll }}</td>
                             </tr>
                         @endforeach
